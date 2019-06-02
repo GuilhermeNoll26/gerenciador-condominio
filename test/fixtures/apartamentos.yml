@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codApto: 1
+  numeroApto: 1
+  estadoOcupacao: MyString
+  codProprietario: 1
+  codInquilino: 1
+
+two:
+  codApto: 1
+  numeroApto: 1
+  estadoOcupacao: MyString
+  codProprietario: 1
+  codInquilino: 1

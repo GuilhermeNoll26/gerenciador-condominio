@@ -6,7 +6,7 @@
         <li class="sidebar-menu-item <% if current_page?(root_path) || current_page?(stack_path(:index)) || current_page?(stack_path(:staff)) ||  current_page?(stack_path(:analytics)) %> active<% end %>">
           <a class="sidebar-menu-button" href="<%= root_path %>">
             <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i>
-            <span class="sidebar-menu-text">Dashboard</span>
+            <span class="sidebar-menu-text">Início</span>
           </a>
         </li>             
        <li class="sidebar-menu-item <% if current_page?(pessoas_path()) && (current_page?(action:'index') ||  current_page?(action:'new')   ||  current_page?(action:'edit'))%>active<% end%>">
@@ -15,6 +15,13 @@
               <span class="sidebar-menu-text">Pessoas</span>
             </a>
           </li>
+             <li class="sidebar-menu-item <% if current_page?(apartamentos_path()) && (current_page?(action:'index') ||  current_page?(action:'new')   ||  current_page?(action:'edit'))%>active<% end%>">
+            <a class="sidebar-menu-button" href="<%= apartamentos_path() %>">
+              <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">location_city</i>
+              <span class="sidebar-menu-text">Apartamentos</span>
+            </a>
+          </li>
+          
       </ul>
       <div class="sidebar-heading">UI Components</div>
       <div class="sidebar-block p-0">

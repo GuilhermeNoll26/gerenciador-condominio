@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Codapto:</strong>
+  <%= @apartamento.codApto %>
+</p>
+
+<p>
+  <strong>Numeroapto:</strong>
+  <%= @apartamento.numeroApto %>
+</p>
+
+<p>
+  <strong>Estadoocupacao:</strong>
+  <%= @apartamento.estadoOcupacao %>
+</p>
+
+<p>
+  <strong>Codproprietario:</strong>
+  <%= @apartamento.codProprietario %>
+</p>
+
+<p>
+  <strong>Codinquilino:</strong>
+  <%= @apartamento.codInquilino %>
+</p>
+
+<%= link_to 'Edit', edit_apartamento_path(@apartamento) %> |
+<%= link_to 'Back', apartamentos_path %>

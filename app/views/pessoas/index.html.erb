@@ -18,9 +18,9 @@
         <td><%= pessoa.nome %></td>
         <td><%= pessoa.tipo_pessoa %></td>
         <td><%= pessoa.documento %></td>
-        <td><%= link_to 'Show', pessoa %></td>
-        <td><%= link_to 'Edit', edit_pessoa_path(pessoa) %></td>
-        <td><%= link_to 'Destroy', pessoa, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Ver dados', pessoa %></td>
+        <td><%= link_to 'Editar', edit_pessoa_path(pessoa) %></td>
+        <td><%= link_to 'Deletar', pessoa, method: :delete, data: { confirm: 'Você tem certeza que deseja excluir?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Pessoa', new_pessoa_path %>
+<a type="button" class="btn btn-primary" href=new_apartamento_path>Nova Pessoa</a>
