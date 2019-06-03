@@ -1,4 +1,3 @@
-
 // Self Initialize DOM Factory Components
 domFactory.handler.autoInit()
 
